@@ -1,8 +1,11 @@
-module giu
+module devdex
 
 go 1.21
 
-require github.com/AllenDang/giu v0.7.0
+require (
+	github.com/AllenDang/giu v0.7.0
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+)
 
 require (
 	github.com/AllenDang/go-findfont v0.0.0-20200702051237-9f180485aeb8 // indirect

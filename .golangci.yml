@@ -1,0 +1,39 @@
+linters:
+  disable-all: true
+  enable:
+    - asasalint
+    - asciicheck
+    - bidichk
+    - bodyclose
+    - dogsled
+    - errcheck
+    - errname
+    - errorlint
+    - exportloopref
+    - gocheckcompilerdirectives
+    - goprintffuncname
+    - gosimple
+    - govet
+    - ineffassign
+    - interfacebloat
+    - lll
+    - makezero
+    - nakedret
+    - nilerr
+    - nolintlint
+    - prealloc
+    - predeclared
+    - revive
+    - sqlclosecheck
+    - staticcheck
+    - tenv
+    - tparallel
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+
+issues:
+    exclude:
+      # revive:var-naming
+      - don't use an underscore in package name

@@ -1,4 +1,8 @@
-# README
+# devdex
+
+*DESCRIPTION details*
+
+## Getting Started
 
 * Widgets - show menu bar, but lots of buttons and options
 * code editor - shows double side by side items

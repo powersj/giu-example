@@ -1,0 +1,5 @@
+# binary name
+/devdex
+
+# code coverage during testing
+coverage.out
